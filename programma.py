@@ -42,8 +42,6 @@ def decrement(number):
     return number - 1
 
 print(decrement(34))
-<<<<<<< Updated upstream
-=======
 
 print ('============================')
 
@@ -63,4 +61,3 @@ while True:
 
 
 
->>>>>>> Stashed changes
