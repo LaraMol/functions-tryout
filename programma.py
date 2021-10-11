@@ -42,3 +42,25 @@ def decrement(number):
     return number - 1
 
 print(decrement(34))
+<<<<<<< Updated upstream
+=======
+
+print ('============================')
+
+def vraag(leeftijd , naam):
+    print ('Hallo' + naam + ' uw leeftijd is ' + leeftijd )
+    return leeftijd, naam
+    
+
+while True:
+    naam = input ("Hallo wat is uw naam?: ")
+    leeftijd = input ("Wat is uw leeftijd?: ")
+    if naam and leeftijd == "":
+        print ('Hallo' + naam + ' uw leeftijd is ' + leeftijd )
+    elif naam and leeftijd == "stop":
+        print ("Fijn dat u er was")
+        break
+
+
+
+>>>>>>> Stashed changes
